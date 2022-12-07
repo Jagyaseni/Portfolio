@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jagyaseni Tripathy</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="header">
+        <nav>
+            <a class="logo" href="#header">
+                <img src="amazon.jpeg" alt="logo">
+                <img class="gs-logo" src="gs.png" alt="logo" >
+            </a>
+            <ul class="menu">
+                <li><a href="#header" class="active">Home</a></li>
+                <li><a href="resume.pdf" target="_blank">CV</a></li>
+                <li><a href="#work">Work Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/jagyasenitripathy/" class="fa fa-linkedin"></a></li>
+                <li><a href="https://github.com/jagyaseni" class="fa fa-github"></a></li>
+                <li><a href="https://www.facebook.com/jagyaseni.tripathy01" class="fa fa-facebook"></a></li>
+                <li><a href="https://www.instagram.com/jagyasenitripathy/" class="fa fa-instagram"></a></li>
+            </ul>
+        </nav>
+
+        <div class="header-heading" >
+            <div class="infoCont">
+                <div class="devInfo">
+                    <h3>Hi, Are you looking for a professional?</h3>
+                    <h1>I'm <span>Jagyaseni</span> Tripathy</h1>
+                    <p>Software Developer, Data Enthusiast </p>
+                    <a class="header-btn" href="resume.pdf" target="_blank">Download CV</a>
+                </div>
+                <div class="devImg">
+                    <img src="bgj.png" alt="Jags pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="work-heading">
+            <h1>Work Experience</h1>
+        </div>
+
+        <div class="work-container">
+            <div class="work-box" data-aos="zoom-in-right">
+                <div class="work-img">
+                    <img src="work1.png">
+                </div>
+
+                <div class="work-text">
+                    <h4>Software Development Engineer - Intern <br>Amazon : January 2022 - June 2022</h4>
+                    <p>I had developed a tool and was responsible for browsing catalog rules which would expose aggregate endpoints through an API Gateway to simplify operations on Search Data Aggregator owned G2S2 tables.</p>
+                    <p>Technical Skills: Backend(Java, Typescript, AWS Lambda, API Gateway, CDK, Cloudformation), Frontend(React Framework)</p>
+                </div>
+            </div>
+
+            <div class="work-box" data-aos="zoom-in-left">
+                <div class="work-img">
+                    <img src="work2.png">
+                </div>
+
+                <div class="work-text">
+                    <h4>Software Development Engineer  <br>Goldman Sachs : July 2022 - Present</h4>
+                    <p>I am responsible for cloud migration of multiple flows from data warehouse to s3 bucket. I have worked on the python scripts to encrypt and decrypt data for business needs, good at writing ETL scripts.</p>
+                    <p>Technical Skills: Python, Pyspark, Hadoop, Big data, AWS Services, SQL, Data Modelling</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="work-heading">
+            <h1>Contact Me</h1>
+        </div>
+        <form data-aos="zoom-in-up">
+            <input type="text" placeholder="Enter your name"/>
+            <input type="email" placeholder="Enter your email"/>
+            <textarea placeholder="Enter your message here..."></textarea>
+            <input type="submit" value="Continue"/>
+        </form>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+</html>
